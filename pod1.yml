@@ -5,7 +5,7 @@ metadata:
   labels:
     run: new-pod1
   name: new-pod-user07
-  namespace: demo
+  namespace: demo-lab07
 spec:
   containers:
   - image: nginx
@@ -17,7 +17,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: rest-simpleapp-svc
-  namespace: demo
+  namespace: demo-lab07
 spec:
   type: NodePort
   selector:
