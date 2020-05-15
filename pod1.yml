@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: new-pod1
-  name: new-pod1
+  name: new-pod-user07
   namespace: demo
 spec:
   containers:
